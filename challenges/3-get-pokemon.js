@@ -6,4 +6,7 @@ axios({
 })
 .then( (response) => {
     console.log(response.data.results);
+} )
+.catch( err => {
+    console.log(err);
 } );
